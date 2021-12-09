@@ -1,11 +1,11 @@
-import "../../UI_Components_Styles/board.css";
+import "../UI_Components_Styles/board.css";
 
 function Board() {
   return (
     <div>
-      <h1 contenteditable spellcheck="false">
+      <h2 contenteditable spellcheck="false">
         hire(d) in a Flash
-      </h1>
+      </h2>
     </div>
   );
 }

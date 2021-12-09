@@ -15,10 +15,10 @@ body {
   justify-content: center;
   align-items: center;
   background: white;
-  min-height: 100vh;
+  min-height: 30vh;
 }
 
-h1 {
+h2 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
@@ -30,17 +30,17 @@ h1 {
   animation: flicker 1.5s infinite alternate;
 }
 
-h1::-moz-selection {
+h2::-moz-selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h1::selection {
+h2::selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h1:focus {
+h2:focus {
   outline: none;
 }
 

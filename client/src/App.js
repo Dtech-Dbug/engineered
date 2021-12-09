@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
-import "./App.css";
-import Board from "../Ui_Components/Board.js";
+import "./index.css";
+import Board from "./UI_Components/Board";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Board />
+      <Header />
     </div>
   );
 }

@@ -8,8 +8,7 @@ function App() {
     <div className="App">
       <div id="header">
         <Header />
-
-        <Board />
+        <figcaption>to get you</figcaption>
       </div>
     </div>
   );

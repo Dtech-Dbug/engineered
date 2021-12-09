@@ -14,6 +14,12 @@ html {
 
 :root {
   --secondary-font: "burgess";
+  --crimson: rgb(250, 1, 54);
+  --orange: rgb(245, 132, 77);
+  --yellow: rgb(218, 194, 57);
+  --neon-green: rgb(5, 201, 130);
+  --deep-blue: rgb(0, 48, 177);
+  --deep-purple: rgb(145, 13, 242);
 }
 
 .App {
@@ -29,6 +35,19 @@ html {
 #header h1 {
   text-align: center;
   font-size: 4rem;
+  background-image: linear-gradient(
+    to right,
+    var(--crimson),
+    var(--yellow),
+    var(--orange),
+    var(--neon-green),
+    var(--deep-blue),
+    var(--deep-purple)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: textGradientAnimation 3s infinite ease-in;
 }
 figcaption {
   text-align: center;
@@ -37,4 +56,12 @@ figcaption {
 }
 h1 {
   font-family: var(--secondary-font);
+}
+@keyframes textGradientAnimation {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }

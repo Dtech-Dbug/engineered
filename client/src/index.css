@@ -53,6 +53,7 @@ figcaption {
   text-align: center;
   font-family: var(--secondary-font);
   font-size: 2rem;
+  color: white;
 }
 h1 {
   font-family: var(--secondary-font);

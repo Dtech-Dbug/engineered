@@ -30,9 +30,27 @@ html {
   align-items: center;
   background-color: black;
   color: white;
+  background: url("../src/Assets/astro-spray.jpg");
+  background-size: 100% 100%;
+  filter: brightness(0.6);
 }
 
-#header h1 {
+header {
+  /* background-color: red; */
+  height: 22rem;
+}
+
+#header {
+  /* background-size: 100% 100%; */
+  /* height: 50vh;
+  width: 80vw;  */
+  /* background: white; */
+  /* background-color: white; */
+  /* transform: translateY(-6rem); */
+  background-color: black;
+}
+
+header #header h1 {
   text-align: center;
   font-size: 4rem;
   background-image: linear-gradient(
@@ -40,7 +58,6 @@ html {
     var(--crimson),
     var(--yellow),
     var(--orange),
-    var(--neon-green),
     var(--deep-blue),
     var(--deep-purple)
   );
@@ -48,6 +65,8 @@ html {
   background-clip: text;
   color: transparent;
   animation: textGradientAnimation 3s infinite ease-in;
+  background-color: black;
+  filter: brightness(1);
 }
 figcaption {
   text-align: center;
@@ -79,8 +98,9 @@ nav {
   backdrop-filter: blur(4px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
-  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 1.5rem var(--crimson),
-    inset 0 0 1.5rem var(--crimson), 0 0 3rem var(--crimson);
+  /* box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 1.5rem var(--crimson),
+    inset 0 0 1.5rem var(--crimson), 0 0 3rem var(--crimson); */
+  background: transparent;
 }
 
 nav ul {

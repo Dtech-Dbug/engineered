@@ -30,14 +30,19 @@ html {
   align-items: center;
   background-color: black;
   color: white;
-  background: url("../src/Assets/astro-spray.jpg");
+  background: url("../src/Assets/yellow-pencil.jpg");
   background-size: 100% 100%;
-  filter: brightness(0.6);
+  filter: brightness(1);
+  position: relative;
 }
 
 header {
   /* background-color: red; */
-  height: 22rem;
+  height: 20rem;
+  /* background-color: red; */
+  /* position: absolute;
+  top: 10%;
+  left: 0; */
 }
 
 #header {
@@ -47,26 +52,32 @@ header {
   /* background: white; */
   /* background-color: white; */
   /* transform: translateY(-6rem); */
-  background-color: black;
+  /* background-color: rgb(24, 25, 55); */
+  padding: 0.5rem;
 }
 
 header #header h1 {
   text-align: center;
-  font-size: 4rem;
-  background-image: linear-gradient(
+  font-size: 5rem;
+  letter-spacing: 2px;
+
+  /* ? rainbow animated text */
+  /* background-image: linear-gradient(
     to right,
     var(--crimson),
     var(--yellow),
     var(--orange),
     var(--deep-blue),
     var(--deep-purple)
-  );
+  ); */
+  /* animation: textGradientAnimation 3s infinite ease-in; */
+  /* background-color: rgb(18, 62, 80); */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: textGradientAnimation 3s infinite ease-in;
-  background-color: black;
+
   filter: brightness(1);
+  color: white;
 }
 figcaption {
   text-align: center;

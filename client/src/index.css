@@ -30,7 +30,7 @@ html {
   align-items: center;
   background-color: black;
   color: white;
-  background: url("../src/Assets/multi-color-folds.jpg");
+  background: url("../src/Assets/space-scene.jpg");
   background-size: 100% 100%;
   filter: brightness(0.8);
   /* position: relative; */
@@ -38,13 +38,17 @@ html {
 
 header {
   /* background-color: red; */
-  height: 20rem;
+  height: 40vh;
   /* background-color: red; */
   /* position: absolute;
   top: 10%;
   left: 0; */
   /* background: url("../src/Assets/yellow-pencil.jpg");
   background-size: 100% 100%; */
+  /* background: url("../src/Assets/love-rainbow.jpg");
+  background-size: 100% 100%; */
+  width: 90%;
+  height: 45rem;
 }
 
 #header {
@@ -71,14 +75,15 @@ header #header h1 {
     var(--orange),
     var(--deep-blue),
     var(--deep-purple)
-  ); */
-  /* animation: textGradientAnimation 3s infinite ease-in; */
-  /* background-color: rgb(18, 62, 80); */
+  );
+  animation: textGradientAnimation 3s infinite ease-in;
+  background-color: rgb(18, 62, 80); */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 
   filter: brightness(1);
+
   color: white;
 }
 figcaption {

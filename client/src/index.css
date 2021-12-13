@@ -30,10 +30,10 @@ html {
   align-items: center;
   background-color: black;
   color: white;
-  background: url("../src/Assets/yellow-pencil.jpg");
+  background: url("../src/Assets/multi-color-folds.jpg");
   background-size: 100% 100%;
-  filter: brightness(1);
-  position: relative;
+  filter: brightness(0.8);
+  /* position: relative; */
 }
 
 header {
@@ -43,6 +43,8 @@ header {
   /* position: absolute;
   top: 10%;
   left: 0; */
+  /* background: url("../src/Assets/yellow-pencil.jpg");
+  background-size: 100% 100%; */
 }
 
 #header {
@@ -121,3 +123,8 @@ nav ul {
   align-items: center;
   list-style: none;
 }
+
+/* #callToActionShowcase img {
+  height: 50%;
+  width: 10%;
+} */
